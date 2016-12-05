@@ -12,27 +12,44 @@
   </head>
   <body>
     <div class="container">
-      <div class="logo">
-        <div class="navLeft">
-          <div class="collapseLeft">
-          <aside>
-            <a href="#">United States &nbsp;<i class="material-icons">caret</i></a>
-          </aside>
-          </div>
-        </div>
-        <div class="navRight">
-          <div class="navBarRight">
-            <aside>
-              <a href="#">Tools</a>
-              <a href="#">More Topics</a>
-              <a href="#">Video</a>
-              <a href="#">Mobile</a>
-              <a href="#">Consumer Trends</a>
-              <a href="#">Micro-Moments</a>
-              <i class="material-icons hide-on-med-and-up">menu</i>
+      <ul id="dropdown1" class="dropdown-content blue-grey darken-3">
+        <li><a href="#!">Advertising</a></li>
+        <li><a href="#!">Consumer Goods</a></li>
+        <li><a href="#!">Measurement</a></li>
+        <li><a href="#!">Programmatic</a></li>
+        <li><a href="#!">Retail</a></li>
+        <li><a href="#!">Search</a></li>
+        <li><a href="#!">Sports & Entertainment</a></li>
+        <li><a href="#!">Travel</a></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper">
+          <ul class="right">
+            <li>
+              <a id="toggle-search" href="#!">
               <i class="material-icons">search</i>
-              </aside>
-          </div>
+              </a>
+            </li>
+          </ul>
+          <a href="#!" class="brand-logo left"><img src="img/googleLogo.png" alt="think with Google logo"/></a>
+          <!-- <a href="#">United States<i class="material-icons right">arrow_drop_down</i></a> -->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Micro-Moments</a></li>
+            <li><a href="#">Consumer Trends</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a class="dropdown-button" href="#!" data-constrainwidth="false" data-hover="true" data-beloworigin="true" data-activates="dropdown1">More Topics</a></li>
+            <li><a href="#">Tools</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="search" class="white-text grey darken-3" >
+        <div class="container navSearch">
+          <i id="hiddenSearchIcon" class="right material-icons">search</i>
+          <form method="get" action="https://www.google.com/search">
+              <input class="form-control" type="text" placeholder="Search Think with Google" name="q"></input>
+              <input type="hidden" value="makoframework.com" name="as_sitesearch"></input>
+          </form>
         </div>
       </div>
     <!-- end nav -->
@@ -78,5 +95,6 @@
   <!-- Scripts for Materialize -->
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
     <script type="text/javascript" src="js/materialize.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>

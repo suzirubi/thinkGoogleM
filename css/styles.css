@@ -113,61 +113,36 @@ img {
 img:hover {
 	transform: scale(1.1);
 }
-
-
-.logo {
-	width: 100%;
-	height: 60px;
-	background-image: url("../img/googleLogo.png");
-  background-size: 198px;
-  background-repeat: no-repeat;
-	background-position: 25px 15px;
+/******NAV******/
+.nav-wrapper {
+  background-color: white;
 }
-.navLeft {
-  float: left;
-  width: 35%;
-  height: 64px;
-  padding-top: 15px;
+.nav-wrapper a {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  color: #424242;
+  letter-spacing: .01em;
 }
-.collapseLeft {
-  float: right;
-  display: inline-block;
-  padding-right: 4%;
-	padding-top: 3px;
+.dropdown-content > li > a {
+  color: white;
 }
-.collapseLeft > aside > a {
-  font-size: .9em;
-  text-align: right;
-  color: #616161;
-  text-decoration: none;
+a.dropdown-button:hover {
+  background-color: #37474f;
+  color: white;
 }
-.navRight {
-  float: right;
-  width: 65%;
-  height: 64px;
-  padding-top: 20px;
-	padding-right: 20px;
+#search {
+  display: none;
+  margin-bottom: 0px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
-.navBarRight {
-  width: 100%;
+#hiddenSearchIcon {
+  position: relative;
+  top: 40px;
+  right: 15px;
+  font-size: 2.5em;
 }
-.navBarRight > aside > a {
-  float: right;
-  font-size: 1em;
-  font-weight: 300;
-  display: inline-block;
-  text-align: right;
-  color: #616161;
-  text-decoration: none;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-.navBarRight::after > aside > a {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
 
 
 /*****MAIN****/
