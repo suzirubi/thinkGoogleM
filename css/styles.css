@@ -1,0 +1,504 @@
+/*****BEGIN FONTS*****/
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Thin.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Thin.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Thin.ttf?v=1.0.0") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Light.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Light.woff?v=1.0.0") format("woff"), url("../fonts/ight/RobotoDraft-Light.ttf?v=1.0.0") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Regular.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Regular.ttf?v=1.0.0") format("truetype");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Regular.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Regular.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Regular.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Italic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Italic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Italic.ttf?v=1.0.0") format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Italic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Italic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Italic.ttf?v=1.0.0") format("truetype");
+  font-weight: normal;
+  font-style: italic; }
+/* END Italic */
+/* BEGIN Medium */
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Medium.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-Medium.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-Medium.ttf?v=1.0.0") format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/Bold/RobotoDraft-Bold.woff2?v=1.0.0") format("woff2"), url("../fonts/Bold/RobotoDraft-Bold.woff?v=1.0.0") format("woff"), url("../fonts/Bold/RobotoDraft-Bold.ttf?v=1.0.0") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-Bold.woff2?v=1.0.0") format("woff2"), url("../fonts/Bold/RobotoDraft-Bold.woff?v=1.0.0") format("woff"), url("../fonts/Bold/RobotoDraft-Bold.ttf?v=1.0.0") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-BoldItalic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-BoldItalic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-BoldItalic.ttf?v=1.0.0") format("truetype");
+  font-weight: 700;
+  font-style: italic; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("../fonts/RobotoDraft-BoldItalic.woff2?v=1.0.0") format("woff2"), url("../fonts/RobotoDraft-BoldItalic.woff?v=1.0.0") format("woff"), url("../fonts/RobotoDraft-BoldItalic.ttf?v=1.0.0") format("truetype");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: RobotoDraft;
+  src: url("./fonts/Black/RobotoDraft-Black.woff2?v=1.0.0") format("woff2"), url("./fonts/Black/RobotoDraft-Black.woff?v=1.0.0") format("woff"), url("./fonts/Black/RobotoDraft-Black.ttf?v=1.0.0") format("truetype");
+  font-weight: 900;
+  font-style: normal; }
+
+/*font-family: 'Roboto Slab', serif;*/
+
+
+/*end font css*/
+
+/* For testing only */
+
+/*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}*/
+
+/*above is for testing only*/
+
+.container {
+  width: 100vw;
+}
+
+html {
+  font-family: 'RobotoDraft','Helvetica Neue',Helvetica,Arial;
+}
+
+body {
+  font-size: 1em;
+  color: #424242;
+  font-weight: 100;
+}
+h1  {
+  font-size: 1.9em;
+  font-weight: 200;
+  line-height: 1.3em;
+  letter-spacing: .05em;
+}
+h2  {
+  font-size: 1.17em;
+  font-weight: 200;
+  line-height: 1.4em;
+  letter-spacing: .07em;
+}
+p {
+	font-size: .9em;
+	font-weight: 200;
+	letter-spacing: .08em;
+}
+img {
+	transition: all .2s ease-in-out;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+
+.logo {
+	width: 100%;
+	height: 60px;
+	background-image: url("../img/googleLogo.png");
+  background-size: 198px;
+  background-repeat: no-repeat;
+	background-position: 25px 15px;
+}
+.navLeft {
+  float: left;
+  width: 35%;
+  height: 64px;
+  padding-top: 15px;
+}
+.collapseLeft {
+  float: right;
+  display: inline-block;
+  padding-right: 4%;
+	padding-top: 3px;
+}
+.collapseLeft > aside > a {
+  font-size: .9em;
+  text-align: right;
+  color: #616161;
+  text-decoration: none;
+}
+.navRight {
+  float: right;
+  width: 65%;
+  height: 64px;
+  padding-top: 20px;
+	padding-right: 20px;
+}
+.navBarRight {
+  width: 100%;
+}
+.navBarRight > aside > a {
+  float: right;
+  font-size: 1em;
+  font-weight: 300;
+  display: inline-block;
+  text-align: right;
+  color: #616161;
+  text-decoration: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.navBarRight::after > aside > a {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+
+
+/*****MAIN****/
+.couch {
+  float: left;
+  width: 65%;
+  height: 56%;
+}
+.couch::before {
+	content: " ";
+	display: block;
+	clear: both;
+}
+.couchGuy {
+	position: relative;
+  width: 100%;
+  height: 100%;
+	overflow: hidden;
+}
+.couchGuy img {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.couchText {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+.couchGuyText {
+  position: fixed;
+  left:28px;
+  top:420px;
+  width: 300px;
+	height: 300px;
+	background-color: #263238;
+	color: white;
+	padding: 1.5em;
+	z-index: 100;
+}
+.couchGuyText p {
+	margin-top: .5em;
+	margin-bottom: 1.5em;
+}
+
+.rightMainArticles {
+  float: right;
+  width: 35%;
+  height: 28%;
+}
+.rightMainArticles2,
+.rightMainArticles h2 {
+	padding-bottom: .1em;
+}
+.phoneGal {
+	position: relative;
+  width: 100%;
+  height: 68%;
+	overflow: hidden;
+}
+.phoneGal img {
+  width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+.phone {
+	position: relative;
+	background-color:
+#083663;
+  width: 100%;
+  height: 32%;
+	padding: .95em 1.19em;
+}
+.phoneGalText {
+	position: relative;
+	width: 100%;
+	color: white;
+}
+.rightMainArticles2 {
+  float: right;
+  width: 35%;
+  height: 28%;
+}
+.tabletGal {
+	position: relative;
+	width: 100%;
+	height: 68%;
+	overflow: hidden;
+}
+.tabletGal img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 0% 0%;
+}
+.tablet {
+	position: relative;
+	background-color: #009688;
+  width: 100%;
+  height: 32%;
+	padding: .95em 1.19em;
+	overflow: hidden;
+}
+.tabletGalText {
+	position: relative;
+	width: 100%;
+	color: white;
+}
+.rightMainArticles2::after {
+	content: " ";
+	display: table;
+	clear:both;
+}
+
+
+
+/*****MEDIA QUERIES*****/
+
+@media only screen and (min-width: 1450px) {
+  body {
+  background-color: #e0e0e0;
+  }
+  .container {
+    width: 1450px;
+    background-color: white;
+    margin: auto;
+  }
+  .phoneGalText h3 {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .phoneGalText h2 {
+    font-size: 1.35em;
+    font-weight: 300;
+    margin-bottom: .35em;
+  }
+  .tabletGalText h2 {
+    font-size: 1.35em;
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+	.navLeft,
+	.navRight::before {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.navLeft {
+	 	width: 80%;
+	}
+	.navRight {
+		width: 20%;
+	}
+	.navBarRight > aside > a {
+		display:none;
+	}
+	.collapseLeft {
+		display: none;
+	}
+	.couch {
+	  width: 100%;
+	  height: 34%;
+	}
+	.couchGuyText {
+	  top:165px;
+	  width: 290px;
+		height: 280px;
+		padding: 1.5em;
+	}
+
+	.couchGuyText h1 {
+		font-size: 1.63em;
+		line-height: 1.3em;
+	}
+	.couch,
+	.couch::after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles,
+	.rightMainArticles2::after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles {
+		float: left;
+	  width: 50%;
+	  height: 22.5%;
+	}
+	.phoneGal {
+	  width: 100%;
+	  height: 63%;
+	}
+	.phone {
+	  width: 100%;
+	  height: 37%;
+		padding: .9em .7em;
+	}
+	.phoneGalText h2 {
+		font-size: 1.35em;
+		line-height: 1.3em;
+		font-weight: 300;
+		padding-left: .5em;
+	}
+	.phoneGalText p {
+		padding-left: .5em;
+		padding-top: .5em;
+	}
+	.rightMainArticles2 {
+		float: right;
+		width: 50%;
+		height: 22.5%;
+	}
+	.tabletGal {
+		width: 100%;
+		height: 63%;
+	}
+	.tablet {
+	  width: 100%;
+	  height: 37%;
+		padding: .9em .7em;
+	}
+	.tabletGalText h2 {
+		font-size: 1.35em;
+		line-height: 1.3em;
+		font-weight: 300;
+		padding-left: .5em;
+	}
+	.tabletGalText p {
+		padding-left: .5em;
+		padding-top: .5em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.hideCouch {
+		display: none;
+	}
+	.couch {
+		width: 100%;
+		height: 33%;
+	}
+	.couchGuyText {
+		top: 333px;
+		left:15px;
+	  width: 94%;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 0%;
+		margin-bottom: 0%;
+		padding: 1em;
+	}
+	.couchGuyText h1 {
+		font-size: 1.35em;
+		font-weight: 300;
+		line-height: 1.3em;
+	}
+	.couch,
+	.couch::after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles,
+	.rightMainArticles2::before {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles,
+	.rightMainArticles2::after {
+		content: " ";
+		display: block;
+		clear: both;
+	}
+	.rightMainArticles {
+	  width: 100%;
+	  height: 7.75%;
+	}
+	.phoneGal {
+		float: left;
+		position: relative;
+	  width: 20%;
+	  height: 100%;
+	}
+	.phoneGal img {
+	  width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+  .phoneGalText h2 {
+    font-size: 1.6em;
+  }
+	.phone {
+		float: right;
+	  width: 80%;
+	  height: 100%;
+		padding: .9em .7em;
+	}
+	.rightMainArticles2 {
+		width: 100%;
+		height: 7.75%;
+	}
+	.tabletGal {
+		float: left;
+		position: relative;
+		width: 20%;
+		height: 100%;
+	}
+	.tabletGal img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+	}
+	.tablet {
+		float: right;
+	  width: 80%;
+	  height: 100%;
+		padding: .9em .7em;
+	}
+}
